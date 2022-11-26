@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\inventory-management-icon.ico" />
+    <None Remove="Images\Inventory.png" />
+    <None Remove="Images\inventorymanagementicon.png" />
+    <None Remove="Images\Report.png" />
+    <None Remove="Images\Save_16x.png" />
+    <None Remove="Images\Shopping.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\inventory-management-icon.ico" />
+    <Resource Include="Images\Inventory.png" />
+    <Resource Include="Images\Report.png" />
+    <Resource Include="Images\Save_16x.png" />
+    <Resource Include="Images\Shopping.png" />
+  </ItemGroup>
+
+</Project>
